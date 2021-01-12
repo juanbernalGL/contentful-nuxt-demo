@@ -3,6 +3,7 @@
     <!-- render data of the person -->
     <!-- <h1>{{ person.fields.name }}</h1> -->
     <!-- render blog posts -->
+    <h1>Hello</h1>
     <ul>
       <li v-for="(index, post) in posts" :key="index">
         {{ post.fields.title }}
